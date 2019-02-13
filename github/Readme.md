@@ -1,4 +1,4 @@
-#Tutorial for how to use git in the ML class
+# Tutorial for how to use git in the ML class
 
 
 

@@ -2,7 +2,7 @@
 
 
 
-#### Miniconda is a light weight python package manager for easy management of modules between projects
+#### Miniconda is a light weight python package manager for easy management of modules between projects.
 
 To install Miniconda, go to https://docs.conda.io/en/latest/miniconda.html and download the installer corresponding to your platform. 
 

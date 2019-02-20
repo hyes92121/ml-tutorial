@@ -14,13 +14,23 @@ in your command line.
 
 A new folder named `ML2019SPRING` will be created in your working directory. This is your local in-class repository and should be synced with the remote one at all times. 
 
-#### 2. How to add files to commit
+#### 2. Set local repository user name
+
+We can set the user name of our local repository.
+
+Type `git config user.name [YOUR GITHUB USERNAME]` to set your github username to your local repo username.
+
+You can type `git config user.name` to check that the username has been setup correctly.
+
+You can alternatively add the `--global` flag to set the username of all the git repos on your computer .
+
+#### 3. How to add files to commit
 
 To perform a commit, one first needs to "add" the desired files to the local index.
 
 Type `git add [LIST OF FILES]`, or `git add -A` to add all files to the index.
 
-#### 3. How to commit a change
+#### 4. How to commit a change
 
 Any changes made to the local repository needs to be committed before being "pushed", or "updated" to the remote one.
 
@@ -30,7 +40,7 @@ If the updated files are correct, we should then proceed to commit these changes
 
 Type `git commit -m "YOUR COMMIT MESSAGE"` to commit the update. 
 
-#### 4. How to push to remote
+#### 5. How to push to remote
 
 Now that we've committed our changes, it's time for us to push the updated files to the remote repository.
 

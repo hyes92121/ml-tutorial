@@ -28,7 +28,7 @@ You can alternatively add the `--global` flag to set the email/username of all t
 
 NOTE: the email and username are not the same as your Github email/username and need not to (but can) be.
 
-NOTE2: if you don't want to enter your GitHub username/password every time, refer to this discussion:
+NOTE2: if you don't want to enter your GitHub username/password every time performing an operation, refer to this discussion:
 
 https://stackoverflow.com/questions/6565357/git-push-requires-username-and-password. 
 

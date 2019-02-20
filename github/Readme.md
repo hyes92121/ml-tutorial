@@ -14,15 +14,19 @@ in your command line.
 
 A new folder named `ML2019SPRING` will be created in your working directory. This is your local in-class repository and should be synced with the remote one at all times. 
 
-#### 2. Set local repository user name
+#### 2. Set local repository user credentials
 
-We can set the user name of our local repository.
+We need to setup the email address and username of our current repository.
 
-Type `git config user.name [YOUR GITHUB USERNAME]` to set your github username to your local repo username.
+Type `git config user.email [YOUR EMAIL]` to set the email of the repo. 
 
-You can type `git config user.name` to check that the username has been setup correctly.
+Type `git config user.name [YOUR USERNAME]` to set the username of the repo.
 
-You can alternatively add the `--global` flag to set the username of all the git repos on your computer .
+You can type `git config user.name(or user.email)` to check that the username/email has been setup correctly.
+
+You can alternatively add the `--global` flag to set the email/username of all the git repos on your computer .
+
+NOTE: the email and username are not the same as your Github email/username and need not to (but can) be. 
 
 #### 3. How to add files to commit
 

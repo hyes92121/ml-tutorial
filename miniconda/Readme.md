@@ -44,5 +44,5 @@ If it works in the environment, it should work in our machines.
 
 To install the environment, type
 
-`conda create --name <env> --file TA_ENV_FILE`
+`conda env create -f TA_ENV_FILE`
 

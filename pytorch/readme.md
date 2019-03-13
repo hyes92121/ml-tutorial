@@ -79,7 +79,7 @@ A `torch.tensor` is conceptually identical to a numpy array, but with GPU suppor
 
 * Other manipulation functions are similar to that of NumPy, we omitted it here for simplification. For more information, please check the PyTorch documentation: https://pytorch.org/docs/stable/tensors.html
 
-###Tensor Attributes
+### Tensor Attributes
 
 - Some important attributes of `torch.tensor`
 

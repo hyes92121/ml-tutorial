@@ -46,7 +46,7 @@ Some useful functions that you may use for managing your training data. We **mus
    
    ```python
        a6 = np.array([[[1, 2], [3, 4], [5, 6]]])  # shape: (1, 3, 2)
-       np.transpose((a6), axes=(2, 1, 0))         # shape: (2, 3, 1)
+       np.transpose((a6), axis=(2, 1, 0))         # shape: (2, 3, 1)
    ```
    
 ## PyTorch
@@ -135,7 +135,7 @@ For example:
 
     ![equation](https://latex.codecogs.com/svg.latex?%5Clarge%20X_2%3D%20%5Cleft%5B%20%7B%5Cbegin%7Barray%7D%7Bcc%7D%20x_5%20%26%20x_6%20%5C%5C%20x_7%20%26%20x_8%20%5C%5C%20%5Cend%7Barray%7D%20%7D%20%5Cright%5D)
 
-    ​           Then `z` is equvilant to ![equation](https://latex.codecogs.com/svg.latex?%5Clarge%20z%3D%5Cfrac%7B1%7D%7B2%7D%28x_1&plus;x_2&plus;x_3&plus;x_4%29&plus;%28x_5&plus;x_6&plus;x_7&plus;x_8%29)
+    ​           Then `z` is equivilant to ![equation](https://latex.codecogs.com/svg.latex?%5Clarge%20z%3D%5Cfrac%7B1%7D%7B2%7D%28x_1&plus;x_2&plus;x_3&plus;x_4%29&plus;%28x_5&plus;x_6&plus;x_7&plus;x_8%29)
 
 * Call `backward()` function to compute gradients automatically
 

@@ -92,7 +92,7 @@ A `torch.tensor` is conceptually identical to a numpy array, but with GPU suppor
 
 ### Autograd
 
-**torch.Auotgrad** is a package that provides functions implementing differentiation for scalar outputs.
+**torch.Autograd** is a package that provides functions implementing differentiation for scalar outputs.
 
 For example:
 * Create a tensor and set `requires_grad=True` to track the computation with it.

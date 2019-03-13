@@ -271,5 +271,5 @@ In addition, `forward` is also by default not implemented, so we need to overrid
 
 ### Example
 
-A full example of a MNIST classifier: [Link](https://github.com/fanoping/ml-pytorch-tutorial/blob/master/mnist_pytorch.ipynb)
+A full example of a MNIST classifier: [Link](https://github.com/hyes92121/ml-tutorial/blob/master/pytorch/mnist_pytorch.ipynb)
 

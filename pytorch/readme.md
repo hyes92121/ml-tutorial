@@ -223,7 +223,7 @@ We can iterate through the dataset with a `for` loop, but we cannot shuffle, bat
 ```python
 from torch.utils.data import DataLoader
 
-dataset = MydDataset('/imgs')
+dataset = MyDataset('/imgs')
 dataloader = DataLoader(dataset, batch_size=32, shuffle=True, num_workers=4)
 
 for batch_id, batch in enumerate(dataloader):
@@ -240,7 +240,7 @@ for batch_id, batch in enumerate(dataloader):
 
 ### Model
 
-Pytorch provides an `nn.Module` for easy definition of a model. A simple CNN model is defined as such:
+Pytorch provides an `nn.Module` for easy definition of a model. A simple CNN model can be defined as such:
 
 ```python
 import torch
@@ -265,7 +265,7 @@ class MyNet(nn.Module):
         return out        
 ```
 
-We let our model inherit from the `nn.Module` class. But why do we need to call `super` in the `__init__` function whereas in the `Dataset` case we don't ? If we look at the [source code](https://pytorch.org/docs/stable/_modules/torch/nn/modules/module.html#Module) of `nn.Module` we can see that there are certain attributes needed in order for the model to work. In the case of `Dataset`, there is no `__init__` function, so no `super` is needed.
+We let our model inherit from the `nn.Module` class. But why do we need to call `super` in the `__init__` function whereas in the `Dataset` case we don't ? If we look at the [source code](https://pytorch.org/docs/stable/_modules/torch/nn/modules/module.html#Module) of `nn.Module` we can see that there are certain attributes needed in order for the model to work. In the case of `Dataset`, there is no `__init__` function, so  `super` is not needed.
 
 In addition, `forward` is also by default not implemented, so we need to override it with our own forward propagation function. 
 

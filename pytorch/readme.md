@@ -216,7 +216,7 @@ class MyDataset(Dataset):
 
 Note that `MyDataset` inherits `Dataset`. If we look at the [source code](https://pytorch.org/docs/stable/_modules/torch/utils/data/dataset.html#Dataset), we can see that the default behavior of `__len__` and `__getitem__` is to raise a `NotImplementedError`, meaning that we should override them every time we create a custom dataset. 
 
-###Dataloader
+### Dataloader
 
 We can iterate through the dataset with a `for` loop, but we cannot shuffle, batch or load the data in parallel. `torch.utils.data.Dataloader` is an iterator which provides all those features. We can specify the batch size, whether to shuffle the data, and number of workers to load the data. 
 

@@ -65,7 +65,7 @@ A `torch.tensor` is conceptually identical to a numpy array, but with GPU suppor
     ```python
         b1.size()               # to check to size of the tensor
                                 # torch.Size([1, 2, 3])
-        b1.view((1, 3, 2))      # same as reshape in numpy (same underlying data, different interpretations)
+        b1.view((1, 3, 2))      # same as view in numpy (same underlying data, different interpretations)
                                 # tensor([[[1, 2],
                                 #          [3, 4],
                                 #          [5, 6]]])

@@ -85,7 +85,7 @@ A `torch.tensor` is conceptually identical to a numpy array, but with GPU suppor
 
 - ```python
         b1.grad                 # gradient of the tensor
-        b1.grad_fn              # the gradient function the tensor
+        b1.grad_fn              # the gradient function of the tensor
         b1.is_leaf              # check if tensor is a leaf node of the graph
         b1.requires_grad        # if set to True, starts tracking all operations performed
     ```

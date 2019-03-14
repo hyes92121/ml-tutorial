@@ -240,7 +240,7 @@ for batch_id, batch in enumerate(dataloader):
 
 ### Model
 
-Pytorch provides an `nn.Module` for easy definition of a model. A simple CNN model can be defined as such:
+Pytorch provides an `nn.Module` for easy definition of a model. A simple DNN model can be defined as such:
 
 ```python
 import torch
